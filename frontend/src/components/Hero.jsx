@@ -2,15 +2,9 @@ import { useSearchParams } from "react-router-dom";
 const Hero = () => {
   const [params, setParams] = useSearchParams();
 
-  // Form gönderilince;
   const handleSumbit = (e) => {
-    // yenileme tekrarını engeller
     e.preventDefault();
-
-    // aratılan kelimeye eriş
     const text = e.target[0].value;
-
-    // url'e parametre olarak formdan alınan text ekle
     setParams({ query: text });
   };
 
