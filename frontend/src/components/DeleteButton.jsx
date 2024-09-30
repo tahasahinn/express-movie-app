@@ -6,7 +6,6 @@ import { toast } from "react-toastify";
 const DeleteButton = ({ id }) => {
   const navigate = useNavigate();
 
-  // filmi silmek için api isteği at
   const handleDelete = () => {
     api
       .delete(`/api/movies/${id}`)
