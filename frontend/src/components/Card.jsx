@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ movie }) => {
   const r = +movie.rating;
-
-  // rating'e göre renk belirle
+  
   const color =
     r > 9
       ? "#0073ff"
