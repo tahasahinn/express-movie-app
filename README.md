@@ -1,6 +1,6 @@
 # FRONTEND
 
-* react vite
+* React vite
 - tailwind
 - react-router-dom
 - react-icons
@@ -9,5 +9,5 @@
 
 # BACKEND
 
-- node.js
+* Node.js
 - nodemon
