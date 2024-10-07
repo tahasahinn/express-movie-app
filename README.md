@@ -1,6 +1,6 @@
 # FRONTEND
 
-- react vite
+* react vite
 - tailwind
 - react-router-dom
 - react-icons
