@@ -3,7 +3,7 @@ const defaultRequest = (req, res) => {
   res.setHeader("Content-Type", "application/json");
   
   res.write(JSON.stringify({ message: "İstek adresi tanımsız" }));
-  res.end();
+  res.end();s
 };
 
 module.exports = defaultRequest;
